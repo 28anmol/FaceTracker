@@ -28,9 +28,13 @@ In order to deploy the code, certain steps have to be followed. A virtual enviro
 While deploying the code, make sure to give the correct path to the blob file here in the Drone.py according to the file structured followed.
 line 50: parser.add_argument("-nn", "--nn_model", help="select model path for inference", default='/home/pi/Desktop/Facetracker/face_detection_yunet_120x160.blob', type=str)
 
+## Prerequisites
+Complete setup of raspbian on raspberrypi 3B/3B+/4B. It should be up and running connected via monitor,keyboard,mouse,wifi/ethernet.
+Note: The live face detection feed and face tracking won't be displayed if the raspberrypi is connected via ssh.
+
 ## Steps
 
-## Pictures and Demo
+## Face Tracking Results
 
 ## Contributors
 * [Anmol Singh](https://github.com/28anmol)
