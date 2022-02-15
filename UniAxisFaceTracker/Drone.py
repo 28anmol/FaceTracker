@@ -116,7 +116,7 @@ def horizontalfacetracker(midpointx,boxcenterx):
             cv2.arrowedLine(frame,(300,60),(340,60),(0,0,255),3)
             for angle in range(current_ang+1,current_ang+4,1):      # Rotating the motor 1-3 degrees ahead of its current angle value
                 DC = (1.0/18.0)*(angle) + 2      # calculating duty cycle to rotate the motor from 1 to 3 degrees.
-                if(DC >= 3.67 and DC <= 12):      # min_dc and max_dc values to stop the servo motor from exceeding its limits.
+                if(DC >= 2 and DC <= 12):      # min_dc and max_dc values to stop the servo motor from exceeding its limits.
                         myservo.ChangeDutyCycle(DC)   # rotation of the servo to adjust the camera position for tracking face
                         time.sleep(0.01)
                         current_ang = angle               # Updating the current angle value after every for loop iteration
@@ -127,7 +127,7 @@ def horizontalfacetracker(midpointx,boxcenterx):
             cv2.arrowedLine(frame,(340,60),(300,60),(0,0,255),3)
             for angle in range(current_ang-1,current_ang-4,-1):
                 DC = (1.0/18.0)*(angle) + 2
-                if(DC >= 3.67 and DC <= 12):        # min_dc and max_dc to stopthe motor from exceeding its limits.
+                if(DC >= 2 and DC <= 12):        # min_dc and max_dc to stopthe motor from exceeding its limits.
                         myservo.ChangeDutyCycle(DC)
                         time.sleep(0.01)
                         current_ang = angle
