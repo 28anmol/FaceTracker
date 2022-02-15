@@ -25,4 +25,4 @@ line 50: parser.add_argument("-nn", "--nn_model", help="select model path for in
 ## Contributors
 * [Anmol Singh](https://github.com/28anmol)
 * [Luxonis Depthai Experiments](https://github.com/luxonis/depthai-experiments/tree/master/gen2-face-detection)
-(The face detection model and its deployment code on oak d lite camera is taken from the above given link.)
+(The face detection model and its deployment code on oak d lite camera is taken from the given link.)
