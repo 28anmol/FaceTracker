@@ -47,6 +47,7 @@ Run the following commands on the rapberrypi terminal:
     - $ pip3 install -r facetrackreq.txt
 - Execute the code with all hardware connected
     - $ python3 Drone.py
+    - ctrl + C to terminate the code(Keyboard Interrupt)
 
 ## Face Tracking Results and Setup
 ![Face Tracking](https://github.com/28anmol/FaceTracker/blob/main/UniAxisFaceTracker/FaceGIF.gif) ![Image1](https://github.com/28anmol/FaceTracker/blob/main/UniAxisFaceTracker/FaceTrackingSetup.jpeg)
