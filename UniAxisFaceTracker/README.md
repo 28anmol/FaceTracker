@@ -2,10 +2,9 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/for-robots.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com) 
 [![forthebadge](https://github.com/28anmol/FaceTracker/blob/main/UniAxisFaceTracker/raspberrypi-3b.svg)](https://forthebadge.com)
+[![forthebadge](https://github.com/28anmol/FaceTracker/blob/main/UniAxisFaceTracker/made-with-depthai.svg)](https://forthebadge.com) [![forthebadge](https://github.com/28anmol/FaceTracker/blob/main/UniAxisFaceTracker/made-with-opencv.svg)](https://forthebadge.com)
 
 
-![Img](https://github.com/IRS-Devl/ComputerVision-UAV-Maneuvering/blob/main/UniAxisFaceTracker/depthai.png)
-![Img2](https://github.com/IRS-Devl/ComputerVision-UAV-Maneuvering/blob/main/UniAxisFaceTracker/opencv.png)
 
 ## Hardware requirements
 - Raspberry pi 3 Model B(with accessories: monitor,keyboard,mouse,SD card,power adapter)
