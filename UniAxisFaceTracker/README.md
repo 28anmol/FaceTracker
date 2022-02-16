@@ -42,4 +42,5 @@ Note: The live face detection feed and face tracking won't be displayed if the r
 ## Contributors
 * [Anmol Singh](https://github.com/28anmol)
 * [Luxonis Depthai Experiments](https://github.com/luxonis/depthai-experiments/tree/master/gen2-face-detection)
+* [Olanrewaju Dada (Credits for facetracking GIF results)]
 (The face detection model and its deployment code on oak d lite camera is taken from the given link.)
