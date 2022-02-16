@@ -38,6 +38,7 @@ Note: The live face detection feed and face tracking won't be displayed if the r
 ## Steps
 
 ## Face Tracking Results and Setup
+Result
 ![Face Tracking](https://github.com/28anmol/FaceTracker/blob/main/UniAxisFaceTracker/FaceGIF.gif) ![Image1](https://github.com/28anmol/FaceTracker/blob/main/UniAxisFaceTracker/FaceTrackingSetup.jpeg)
 ## Contributors
 * [Anmol Singh](https://github.com/28anmol)
