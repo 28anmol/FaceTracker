@@ -94,6 +94,7 @@ The biggest challenge encountered in the making of this project was finding the 
 ![Face Tracking](https://github.com/28anmol/FaceTracker/blob/main/UniAxisFaceTracker/FaceGIF.gif)
 ![CamMotion](https://github.com/28anmol/FaceTracker/blob/main/UniAxisFaceTracker/CamMotion.gif)
 ![Image1](https://github.com/28anmol/FaceTracker/blob/main/UniAxisFaceTracker/FaceTrackingSetup.jpeg)
+
 ## Contributors
 * [Anmol Singh](https://github.com/28anmol)
 * [Luxonis Depthai Experiments](https://github.com/luxonis/depthai-experiments/tree/master/gen2-face-detection)
