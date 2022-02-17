@@ -23,7 +23,7 @@ Regarding the hardware setup, a few things needs te be taken care of before actu
 - The servo motor should be mounted such that it is free to rotate in a semicircle(0-180deg)
 - The camera is mounted on the motor shaft parallel to when the motor shaft head is pointing at 90deg and it has +/- 90 deg of free rotation on both sides. So setting up and mounting the camera at 90deg is a reference.
     - In order to calibrate the motor and mount the camera in the correct orientation, following steps can be followed. Run the following commands on raspberrypi terminal(assuming the signalpin of the servo is connected to GPIO 11 and a head is connected on top of the shaft)
-        - $ sudo python                                                        (opens up the python shell)
+        - $ sudo python                                                         (opens up the python shell)
         - >>> import RPi.GPIO as GPIO
         - >>> import time
         - >>> GPIO.setmode(GPIO.BOARD)
