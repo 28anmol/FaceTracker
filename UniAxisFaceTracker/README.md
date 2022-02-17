@@ -49,6 +49,9 @@ Run the following commands on the rapberrypi terminal:
     - $ deactivate (to deactivate the virtual environment
 - Install the dependencies for the code to work.
     - $ pip3 install -r facetrackreq.txt
+    - Virtual Environment being activated please run the following commands too:
+        - $ sudo apt-get update
+        - $ sudo apy-get upgrade
 - Execute the code with all hardware connected
     - $ python3 Drone.py
     - Ctrl + C to terminate the code(Keyboard Interrupt)
