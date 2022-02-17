@@ -6,7 +6,7 @@
 
 
 
-## Hardware requirements
+## Hardware requirements and setup
 - Raspberry pi 3 Model B(with accessories: monitor,keyboard,mouse,SD card,power adapter)
 - 1 OAK-D Lite Camera
 - 1 MG90S Micro Servo motor(and its accessories)
@@ -19,8 +19,31 @@ If powering up the motor is not desired from the raspberry pi then additional co
 - Breadboard
 - Extra jumper wires 
 
+Regarding the hardware setup, a few things needs te be taken care of before actually executing the code
+- The servo motor should be mounted such that it is free to rotate in a semicircle(0-180deg)
+- The camera is mounted on the motor shaft parallel to when the motor shaft head is pointing at 90deg and it has +/- 90 deg of free rotation on both sides. So setting up and mounting the camera at 90deg is a reference.
+    - In order to calibrate the motor and mount the camera in the correct orientation, following steps can be followed. Run the following commands on raspberrypi terminal(assuming the signalpin of the servo is connected to GPIO 11 and a head is connected on top of the shaft)
+        - $ sudo python                         (opens up the python shell)
+        - >>> import RPi.GPIO as GPIO
+        - >>> import time
+        - >>> GPIO.setmode(GPIO.BOARD)
+        - >>> GPIO.setwarnings(False)
+        - >>> signalpin = 11
+        - >>> GPIO.setup(signalpin,GPIO.OUT)
+        - >>> pwm = GPIO.PWM(signalpin,50)
+        - >>> pwm.start(2)                      (Takes the servo to 0deg position)
+        - >>> pwm.ChangeDutyCycle(7)            (Takes the servo to 90deg)
+        - pwm.ChangeDutyCycle(0)                (Temporarily stops the pwm signals)
+        - pwm.stop()                            (stops the pwm signals from the raspberrypi GPIO pin)
+        - GPIO.cleanup()                        (cleans up the GPIO pins)
+        - quit()                                (quit the python shell)
+    - Once these steps are done, you can mount the camera and then follow with the final steps of executing the Drone.py file)
+
+
 ## About the code
 YuNet face detection model is used to detect faces in the frame. The neural network inference is carried out by oak d lite camera connected to the rpi mounted upon a servo motor which in turn is also controlled by the raspberry pi. The aim of this code is to detect a face, track and keep it in the center of the camera frame within a certain threshold range of pixels values. Simultaenously, computer vision based feedback instructions for motor actuation, bounding boxes, relevant coordinates for reference and tracking are displayed in the frame itself while the code is running to make it more comprehensive and intuitive. As only one motor is controlled, the camera tracks faces about z axis(yaw movement). Also, the code is designed to track only one object at a time and the workspace of the camera is a semi-circle due to the servo motor rotation limitations.
+
+Note: If more than one face are in the frame then the model would get confused and as a result it would follow only one face out of all present in the frame.
 
 ## Tips to run the code
 In order to deploy the code, certain steps have to be followed. A virtual environment for python has to be setup, in which the dependencies given in the facetrackreq.txt file has to be installed. Once this is done the drone.py file can be executed directly to view the results.
@@ -55,6 +78,9 @@ Run the following commands on the rapberrypi terminal:
 - Execute the code with all hardware connected
     - $ python3 Drone.py
     - Ctrl + C to terminate the code(Keyboard Interrupt)
+
+## Challenges
+The biggest challenge encountered in the making of this project was finding the correct face detection model,configuring the oak d camera and deploying the precompiled blob file on the hardware. The deployment code and the blob file for the above hardware was already ready which eased life to an extent. Finding this was the challenge.
 
 ## Face Tracking Results and Setup
 ![Face Tracking](https://github.com/28anmol/FaceTracker/blob/main/UniAxisFaceTracker/FaceGIF.gif)
