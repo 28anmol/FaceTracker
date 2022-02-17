@@ -64,5 +64,5 @@ Run the following commands on the rapberrypi terminal:
 * [Anmol Singh](https://github.com/28anmol)
 * [Luxonis Depthai Experiments](https://github.com/luxonis/depthai-experiments/tree/master/gen2-face-detection)
 (The face detection model and its deployment code on oak d lite camera is taken from the given link.)
-* https://github.com/OlanrewajuDada (Credits for the test results GIF)
+* https://github.com/OlanrewajuDada (Credits for participating as a volunteer test object for face tracking GIF)
 
