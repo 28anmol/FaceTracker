@@ -38,11 +38,11 @@ Additionally run the following commands on the raspberrypi terminal:
 
 ## Steps
 Run the following commands on the rapberrypi terminal:
-- Create a folder on Desktop named FaceTracker where the codes and virtual environment exists
-    - Clone the folder utilcode
-    - Clone the file Drone.py
-    - Clone the text file facetrackreq.txt
-    - Clone the face detection model: face_detection_yunet_120x160.blob
+- Create a folder on Desktop named FaceTracker where the codes and virtual environment exists and clone the files given below in this folder
+    - Clone the folder utilcode (other modules imported in the master python file)
+    - Clone the file Drone.py (master python file to run the face tracking)
+    - Clone the text file facetrackreq.txt (requirements.txt file)
+    - Clone the face detection model: face_detection_yunet_120x160.blob (face detection model)
 - Create a virtual environment named "Drone" in the above folder
     - $ python3 -m Drone <path_to_virtualenv>
     - $ source ./Drone/bin/activate (to activate the virtual environment
