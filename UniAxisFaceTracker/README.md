@@ -5,6 +5,8 @@
 [![forthebadge](https://github.com/28anmol/FaceTracker/blob/main/UniAxisFaceTracker/raspberrypi-3b.svg)](https://forthebadge.com)[![forthebadge](https://github.com/28anmol/FaceTracker/blob/main/UniAxisFaceTracker/oak-d-lite-camera.svg)](https://forthebadge.com)
 
 
+## Aim
+The aim of this code is based on the theme: "Computer Vision based feedback on maneuvering of unamnned aerial vehicles". The camera detects an object in the frame and actuates the motors in a way such that the object is tracked and centered in the frame at all times. This is crucial to keep the test object in the frame when the UAV has to follow the particular test object and accomplish some mission autonomously.
 
 ## Hardware requirements and setup
 - Raspberry pi 3 Model B(with accessories: monitor,keyboard,mouse,SD card,power adapter)
