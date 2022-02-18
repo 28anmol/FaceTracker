@@ -4,6 +4,17 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)[![forthebadge](https://github.com/28anmol/FaceTracker/blob/main/UniAxisFaceTracker/made-with-depthai.svg)](https://forthebadge.com)[![forthebadge](https://github.com/28anmol/FaceTracker/blob/main/UniAxisFaceTracker/made-with-opencv.svg)](https://forthebadge.com)                                                        
 [![forthebadge](https://github.com/28anmol/FaceTracker/blob/main/UniAxisFaceTracker/raspberrypi-3b.svg)](https://forthebadge.com)[![forthebadge](https://github.com/28anmol/FaceTracker/blob/main/UniAxisFaceTracker/oak-d-lite-camera.svg)](https://forthebadge.com)
 
+**Table of Contents**
+1. Aim(#aim)
+2. Hardware requirements and setup(#hardware-requirements-and-setup)
+3. About the code(#about-the-code)
+4. Tips to run the code(#tips-to-run-the-code)
+5. Prerequisites(#prerequisites)
+6. Steps(#steps)
+7. Challenges(#challenges)
+8. Improvements(#improvements)
+9. Face tracking results and setup(#face-tracking-results-and-setup)
+10. Contributors(#contributors)
 
 
 ## Aim
@@ -151,7 +162,7 @@ The biggest challenge encountered in the making of this project was finding the 
 - Setting up the parameters such that the motor rotation copes up with the rate of pixel change of the detections in the frame.
 - Extending the setup to three servo motor actuations in order to get yaw,pitch and roll movements of the camera (3 degrees of freedom).
 
-## Face Tracking Results and Setup
+## Face tracking results and setup
 ![Face Tracking](https://github.com/28anmol/FaceTracker/blob/main/UniAxisFaceTracker/FaceGIF.gif)
 ![CamMotion](https://github.com/28anmol/FaceTracker/blob/main/UniAxisFaceTracker/CamMotion.gif)
 ![Image1](https://github.com/28anmol/FaceTracker/blob/main/UniAxisFaceTracker/FaceTrackingSetup.jpeg)
