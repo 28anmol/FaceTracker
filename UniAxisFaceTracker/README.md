@@ -15,7 +15,7 @@
 8. [Improvements](#improvements)
 9. [Face tracking results and setup](#face-tracking-results-and-setup)
 10. [Contributors](#contributors)
-11. [Links](#external-links)
+11. [External links](#external-links)
 
 
 ## Aim
