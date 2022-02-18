@@ -164,9 +164,9 @@ The biggest challenge encountered in the making of this project was finding the 
 - Extending the setup to three servo motor actuations in order to get yaw,pitch and roll movements of the camera (3 degrees of freedom).
 
 ## Face tracking results and setup
-![Face Tracking](https://github.com/28anmol/FaceTracker/blob/main/UniAxisFaceTracker/FaceGIF.gif)
-![CamMotion](https://github.com/28anmol/FaceTracker/blob/main/UniAxisFaceTracker/CamMotion.gif)
-![Image1](https://github.com/28anmol/FaceTracker/blob/main/UniAxisFaceTracker/FaceTrackingSetup.jpeg)
+![Face Tracking](https://github.com/28anmol/FaceTracker/blob/main/UniAxisFaceTracker/Results/FaceGIF.gif)
+![CamMotion](https://github.com/28anmol/FaceTracker/blob/main/UniAxisFaceTracker/Results/CamMotion.gif)
+![Image1](https://github.com/28anmol/FaceTracker/blob/main/UniAxisFaceTracker/Results/FaceTrackingSetup.jpeg)
 
 ## Contributors
 * [Anmol Singh](https://github.com/28anmol)
