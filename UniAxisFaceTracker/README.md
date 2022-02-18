@@ -26,10 +26,18 @@ Regarding the hardware setup, a few things needs te be taken care of before actu
 - The servo motor should be mounted such that it is free to rotate in a semicircle(0-180deg)
 - The camera is mounted on the motor shaft parallel to when the motor shaft head is pointing at 90deg and it has +/- 90 deg of free rotation on both sides. So setting up and mounting the camera at 90deg is a reference.
     - In order to calibrate the motor and mount the camera in the correct orientation, following steps can be followed. Run the following commands on raspberrypi terminal(assuming the signalpin of the servo is connected to GPIO 11 and a head is connected on top of the shaft)
+        ```bash
         - $ sudo python                                                         (opens up the python shell)
+        ```
+        ```bash
         - *>>>* import RPi.GPIO as GPIO
+        ```
+        ```bash
         - *>>>* import time
+        ```
+        ```bash
         - *>>>* GPIO.setmode(GPIO.BOARD)
+        ```
         - *>>>* GPIO.setwarnings(False)
         - *>>>* signalpin = 11
         - *>>>* GPIO.setup(signalpin,GPIO.OUT)
@@ -74,16 +82,30 @@ Run the following commands on the rapberrypi terminal:
     - Clone the text file facetrackreq.txt (requirements.txt file)
     - Clone the face detection model: face_detection_yunet_120x160.blob (face detection model)
 - Create a virtual environment named "Drone" in the above folder
+    ```bash
     - $ python3 -m Drone <path_to_virtualenv>
+    ```
+    ```bash
     - $ source ./Drone/bin/activate (to activate the virtual environment
+    ```
+    ```bash
     - $ deactivate (to deactivate the virtual environment
+    ```
 - Install the dependencies for the code to work.
-    - $ pip3 install -r facetrackreq.txt
+    ```bash
+    - $ python -m pip3 install -r facetrackreq.txt
+    ```
     - Virtual Environment being activated please run the following commands too:
+        ```bash
         - $ sudo apt-get update
+        ```
+        ```bash
         - $ sudo apt-get upgrade
+        ```
 - Execute the code with all hardware connected
+    ```bash
     - $ python3 Drone.py
+    ```
     - Ctrl + C to terminate the code(Keyboard Interrupt)
 
 ## Challenges
