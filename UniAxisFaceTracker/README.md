@@ -5,16 +5,16 @@
 [![forthebadge](https://github.com/28anmol/FaceTracker/blob/main/UniAxisFaceTracker/raspberrypi-3b.svg)](https://forthebadge.com)[![forthebadge](https://github.com/28anmol/FaceTracker/blob/main/UniAxisFaceTracker/oak-d-lite-camera.svg)](https://forthebadge.com)
 
 **Table of Contents**
-1. Aim(#aim)
-2. Hardware requirements and setup(#hardware-requirements-and-setup)
-3. About the code(#about-the-code)
-4. Tips to run the code(#tips-to-run-the-code)
-5. Prerequisites(#prerequisites)
-6. Steps(#steps)
-7. Challenges(#challenges)
-8. Improvements(#improvements)
-9. Face tracking results and setup(#face-tracking-results-and-setup)
-10. Contributors(#contributors)
+1. [Aim](#aim)
+2. [Hardware requirements and setup](#hardware-requirements-and-setup)
+3. [About the code](#about-the-code)
+4. [Tips to run the code](#tips-to-run-the-code)
+5. [Prerequisites](#prerequisites)
+6. [Steps](#steps)
+7. [Challenges](#challenges)
+8. [Improvements](#improvements)
+9. [Face tracking results and setup](#face-tracking-results-and-setup)
+10.[Contributors](#contributors)
 
 
 ## Aim
