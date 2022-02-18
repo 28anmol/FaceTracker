@@ -86,25 +86,25 @@ Run the following commands on the rapberrypi terminal:
     python3 -m Drone <path_to_virtualenv>
     ```
     ```bash
-    - $ source ./Drone/bin/activate (to activate the virtual environment
+    source ./Drone/bin/activate (to activate the virtual environment
     ```
     ```bash
-    - $ deactivate (to deactivate the virtual environment
+    deactivate (to deactivate the virtual environment
     ```
 - Install the dependencies for the code to work.
     ```bash
-    - $ python -m pip3 install -r facetrackreq.txt
+    python -m pip3 install -r facetrackreq.txt
     ```
     - Virtual Environment being activated please run the following commands too:
         ```bash
-        - $ sudo apt-get update
+        sudo apt-get update
         ```
         ```bash
-        - $ sudo apt-get upgrade
+        sudo apt-get upgrade
         ```
 - Execute the code with all hardware connected
     ```bash
-    - $ python3 Drone.py
+    python3 Drone.py
     ```
     - Ctrl + C to terminate the code(Keyboard Interrupt)
 
