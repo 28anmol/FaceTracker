@@ -175,5 +175,5 @@ The biggest challenge encountered in the making of this project was finding the 
 * https://github.com/OlanrewajuDada (Credits for participating as a volunteer test object for face tracking GIF)
 
 ## Links
-[docs.luxonis.com](https://docs.luxonis.com/projects/api/en/latest/install/#raspberry-pi-os)
+[docs.luxonis.com](Luxonis)(https://docs.luxonis.com/projects/api/en/latest/install/#raspberry-pi-os)
 
