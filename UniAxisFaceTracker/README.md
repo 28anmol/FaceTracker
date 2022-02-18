@@ -15,7 +15,7 @@
 8. [Improvements](#improvements)
 9. [Face tracking results and setup](#face-tracking-results-and-setup)
 10. [Contributors](#contributors)
-11. [Links](#links)
+11. [Links](#external-links)
 
 
 ## Aim
@@ -174,7 +174,7 @@ The biggest challenge encountered in the making of this project was finding the 
 (The face detection model and its deployment code on oak d lite camera is taken from the given link.)
 * https://github.com/OlanrewajuDada (Credits for participating as a volunteer test object for face tracking GIF)
 
-## Links
+## External links
 For testing out and configuring the camera:
 [docs.luxonis.com](https://docs.luxonis.com/projects/api/en/latest/install/#raspberry-pi-os "Luxonis Documentation")
 
