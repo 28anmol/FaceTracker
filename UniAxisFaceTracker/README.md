@@ -108,7 +108,10 @@ Run the following commands on the rapberrypi terminal:
     ```bash
     python3 Drone.py
     ```
-    Ctrl + C to terminate the code(Keyboard Interrupt)
+- Terminate the code (Ctrl + C : Keyboard Interrupt)
+    ```bash
+    ^C
+    ```
 
 ## Challenges
 The biggest challenge encountered in the making of this project was finding the correct face detection model,configuring the oak d camera and deploying the precompiled blob file on the hardware. The deployment code and the blob file for the above hardware was already ready which eased life to an extent. Finding this was the challenge.
