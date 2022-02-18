@@ -14,7 +14,7 @@
 7. [Challenges](#challenges)
 8. [Improvements](#improvements)
 9. [Face tracking results and setup](#face-tracking-results-and-setup)
-10.[Contributors](#contributors)
+10. [Contributors](#contributors)
 
 
 ## Aim
