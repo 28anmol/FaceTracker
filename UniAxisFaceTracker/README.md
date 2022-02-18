@@ -37,7 +37,7 @@ Regarding the hardware setup, a few things needs te be taken care of before actu
         >>> import time
         ```
         ```bash
-        - *>>>* GPIO.setmode(GPIO.BOARD)
+        >>> GPIO.setmode(GPIO.BOARD)
         ```
         ```bash
         >>> GPIO.setwarnings(False)
