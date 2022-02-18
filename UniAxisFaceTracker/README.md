@@ -83,7 +83,7 @@ Run the following commands on the rapberrypi terminal:
     - Clone the face detection model: face_detection_yunet_120x160.blob (face detection model)
 - Create a virtual environment named "Drone" in the above folder
     ```bash
-    - $ python3 -m Drone <path_to_virtualenv>
+    python3 -m Drone <path_to_virtualenv>
     ```
     ```bash
     - $ source ./Drone/bin/activate (to activate the virtual environment
