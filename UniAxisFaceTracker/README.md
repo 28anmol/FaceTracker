@@ -34,21 +34,47 @@ Regarding the hardware setup, a few things needs te be taken care of before actu
         >>> import RPi.GPIO as GPIO
         ```
         ```bash
-        - *>>>* import time
+        >>> import time
         ```
         ```bash
         - *>>>* GPIO.setmode(GPIO.BOARD)
         ```
-        - *>>>* GPIO.setwarnings(False)
-        - *>>>* signalpin = 11
-        - *>>>* GPIO.setup(signalpin,GPIO.OUT)
-        - *>>>* pwm = GPIO.PWM(signalpin,50)
-        - *>>>* pwm.start(2)                                                      (Takes the servo to 0deg position)
-        - *>>>* pwm.ChangeDutyCycle(7)                                            (Takes the servo to 90deg)
-        - *>>>* pwm.ChangeDutyCycle(0)                                            (Temporarily stops the pwm signals)
-        - *>>>** pwm.stop()                                                        (stops the pwm signals from the raspberrypi GPIO pin)
-        - *>>>* GPIO.cleanup()                                                    (cleans up the GPIO pins)
-        - *>>>* quit()                                                            (quit the python shell)
+        ```bash
+        >>> GPIO.setwarnings(False)
+        ```
+        ```bash
+        >>> signalpin = 11
+        ```
+        ```bash
+        >>> GPIO.setup(signalpin,GPIO.OUT)
+        ```
+        ```bash
+        >>> pwm = GPIO.PWM(signalpin,50)
+        ```
+        Takes the servo to 0 deg position
+        ```bash
+        >>> pwm.start(2)  
+        ```
+        Takes the servo to 90 degree position
+        ```bash
+        >>> pwm.ChangeDutyCycle(7)                                            
+        ```
+        Temporarily stops the pwm signals
+        ```bash
+        >>> pwm.ChangeDutyCycle(0)                                            
+        ```
+        (stops the pwm signals from the raspberrypi GPIO pin)
+        ```bash
+        >>> pwm.stop()                                                        
+        ```
+        cleans up the GPIO pins
+        ```bash
+        >>> GPIO.cleanup()                                                    
+        ```
+        quit the python shell
+        ```bash
+        >>> quit() 
+        ```                                                           
     - Once these steps are done, you can mount the camera and then follow with the final steps of executing the Drone.py file)
 
 
