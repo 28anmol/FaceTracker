@@ -15,6 +15,7 @@
 8. [Improvements](#improvements)
 9. [Face tracking results and setup](#face-tracking-results-and-setup)
 10. [Contributors](#contributors)
+11. [Links](#links)
 
 
 ## Aim
@@ -172,4 +173,7 @@ The biggest challenge encountered in the making of this project was finding the 
 * [Luxonis Depthai Experiments](https://github.com/luxonis/depthai-experiments/tree/master/gen2-face-detection)
 (The face detection model and its deployment code on oak d lite camera is taken from the given link.)
 * https://github.com/OlanrewajuDada (Credits for participating as a volunteer test object for face tracking GIF)
+
+## Links
+[docs.luxonis.com](https://docs.luxonis.com/projects/api/en/latest/install/#raspberry-pi-os)
 
