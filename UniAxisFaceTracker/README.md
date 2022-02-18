@@ -31,7 +31,7 @@ Regarding the hardware setup, a few things needs te be taken care of before actu
         sudo python                                                    
         ```
         ```bash
-        - *>>>* import RPi.GPIO as GPIO
+        >>> import RPi.GPIO as GPIO
         ```
         ```bash
         - *>>>* import time
