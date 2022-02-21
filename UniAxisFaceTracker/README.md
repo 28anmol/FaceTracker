@@ -129,11 +129,11 @@ Run the following commands on the rapberrypi terminal:
     ```bash
     python3 -m Drone <path_to_virtualenv>
     ```
-    Activate virtual environment
+    Activate virtual environment(activation is required to run the code)
     ```bash
     source ./Drone/bin/activate 
     ```
-    Deactivate virtual environment
+    Deactivate virtual environment(when not working with the code)
     ```bash
     deactivate
     ```
