@@ -177,6 +177,10 @@ The biggest challenge encountered in the making of this project was finding the 
 * https://github.com/OlanrewajuDada (Credits for participating as a volunteer test object for face tracking GIF)
 
 ## External links
-For testing out and configuring the camera:
+-For testing out and configuring the camera:
 [docs.luxonis.com](https://docs.luxonis.com/projects/api/en/latest/install/#raspberry-pi-os "Luxonis Documentation")
+- Raspberrypi documentation and product
+[raspberrypi.org](https://www.raspberrypi.org)
+- Shop OAK-D Model
+[shop.luxonis.com](https://shop.luxonis.com)
 
