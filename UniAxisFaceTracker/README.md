@@ -158,7 +158,7 @@ Run the following commands on the rapberrypi terminal:
     ```bash
     ^C
     ```
-Note: If opencv-python doesn't install on raspberrypi virtual environment with the above install requirements file then follow these commands:
+Note: If opencv-python doesn't install on raspberrypi virtual environment with the above install requirements file then follow these commands:  
     ```bash
     sudo curl -fL https://docs.luxonis.com/install_dependencies.sh | bash
     ```
