@@ -160,6 +160,9 @@ Run the following commands on the rapberrypi terminal:
     ```
 Note: If opencv-python doesn't install on raspberrypi virtual environment with the above install requirements file then follow these commands:  
 ```bash
+virtualenv venv && source venv/bin/activate
+```
+```bash
 sudo curl -fL https://docs.luxonis.com/install_dependencies.sh | bash
 ```
 ```bash
@@ -170,15 +173,13 @@ git clone https://github.com/luxonis/depthai-python.git
 cd depthai-python
 ```
 ```bash
-virtualenv venv && source venv/bin/activate
-```
-```bash
 cd examples
 python3 install_requirements.py
 ```
 ```bash
 python3 ColorCamera/rgb_preview.py
 ```
+This way you can even test the installation setup and working of the camera.
 
 ## Challenges
 The biggest challenge encountered in the making of this project was finding the correct face detection model(in terms of accuracy and model not crashing when there is no detection),configuring the oak d camera and deploying the precompiled blob file on the hardware. The deployment code and the blob file for the above hardware was already ready which eased life to an extent. Finding this was the challenge.
