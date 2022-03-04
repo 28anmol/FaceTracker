@@ -164,7 +164,7 @@ The biggest challenge encountered in the making of this project was finding the 
 
 ## Improvements
 - Fine tuning the servo motor rotation parameters to get a smooth rotation of the camera(uisng a better motor with encoder or using tuned hardware and controllers solves this purpose).
-- Setting up the parameters such that the motor rotation copes up with the rate of pixel change of the detections in the frame(depends on how good the code is).
+- Setting up the parameters such that the motor rotation copes up with the rate of pixel change of the detections in the frame(depends on how the code is written).
 - Extending the setup to three servo motor actuations in order to get yaw,pitch and roll movements of the camera (3 degrees of freedom).
 
 ## Face tracking results and setup
