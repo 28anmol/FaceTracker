@@ -160,7 +160,7 @@ Run the following commands on the rapberrypi terminal:
     ```
 
 ## Challenges
-The biggest challenge encountered in the making of this project was finding the correct face detection model,configuring the oak d camera and deploying the precompiled blob file on the hardware. The deployment code and the blob file for the above hardware was already ready which eased life to an extent. Finding this was the challenge.
+The biggest challenge encountered in the making of this project was finding the correct face detection model(in terms of accuracy and model not crashing when there is no detection),configuring the oak d camera and deploying the precompiled blob file on the hardware. The deployment code and the blob file for the above hardware was already ready which eased life to an extent. Finding this was the challenge.
 
 ## Improvements
 - Fine tuning the servo motor rotation parameters to get a smooth rotation of the camera.
