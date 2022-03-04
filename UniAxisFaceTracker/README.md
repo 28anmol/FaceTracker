@@ -1,4 +1,6 @@
 # Single Axis Face Tracker
+# Theme: "Computer Vision based feedback for motor actuation"
+# Project Theme: "Computer Vision based feedback for maneuvering of Unmanned Aerial Vehicles/Computer Vision basiertes Reaktion für Luftmanipulation"
 
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)     [![forthebadge](https://forthebadge.com/images/badges/for-robots.svg)](https://forthebadge.com)        
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)[![forthebadge](https://github.com/28anmol/FaceTracker/blob/main/UniAxisFaceTracker/Miscellaneous/made-with-depthai.svg)](https://forthebadge.com)[![forthebadge](https://github.com/28anmol/FaceTracker/blob/main/UniAxisFaceTracker/Miscellaneous/made-with-opencv.svg)](https://forthebadge.com)                                                        
